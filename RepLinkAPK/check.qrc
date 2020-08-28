@@ -1,0 +1,33 @@
+<RCC>
+    <qresource prefix="/img">
+        <file alias="check">../bullet_check.png</file>
+        <file>../replinkAPKico.png</file>
+        <file>../reload.png</file>
+        <file>../refresh.png</file>
+        <file>../cleaner.png</file>
+        <file>../process.png</file>
+        <file>../info.png</file>
+        <file>../cube.gif</file>
+        <file>../loading.gif</file>
+        <file>../win-loading.gif</file>
+        <file>../mylogo.png</file>
+        <file>../info_small.png</file>
+        <file>../warning.png</file>
+        <file>../signature_no.png</file>
+        <file>../signature_ok.png</file>
+        <file>../add.png</file>
+        <file>../exec.png</file>
+        <file>../send_to_process.png</file>
+        <file>../close.png</file>
+        <file>../eye.png</file>
+        <file>../open.png</file>
+        <file>../back.png</file>
+        <file>../folder.png</file>
+        <file>../pc.png</file>
+        <file>../hdd.png</file>
+        <file>../apkfile.png</file>
+        <file>../up.png</file>
+        <file>../next.png</file>
+        <file>../explorer.png</file>
+    </qresource>
+</RCC>
