@@ -23,32 +23,6 @@ QString shortPathName(const QString & file) // returns 8.3 file format from long
     delete [] output;
 
 
-
-    //QString aux="D:/www/MY RepLink APK Manager";
-
-   /* if(ret.indexOf(" ")!=-1){
-        QStringList partes=ret.split("/");
-        ret="";
-        for (int var = 0; var < partes.length(); ++var) {
-            QString part= partes.at(var);
-            QString test= part;
-
-            if(part.indexOf(" ")!=-1){
-                test=test.replace(" ","");
-            }
-
-            if(part.length()>6){
-                test=test.toUpper();
-            }
-
-            if(var!=partes.length()-1){
-                ret+= test.length()>6 ? test.mid(0,6)+"~1/" :test+"/"  ;
-            }else{
-                ret+= test.length()>6 ? test.mid(0,6)+"~1" :test  ;
-            }
-        }
-    }*/
-
     return ret;
 }
 
@@ -127,8 +101,6 @@ static void associateFileTypes(const QStringList &fileTypes)
     QSettings conf(QSettings::IniFormat, QSettings::UserScope,
                            "RepLink APK Manager", "RepLinkAPK");
 
-   // qDebug() << conf.allKeys();
-
     aux= shortPathName(aux);
 
     if(conf.allKeys().length()!=10){
@@ -162,7 +134,6 @@ static void associateFileTypes(const QStringList &fileTypes)
         conf.beginGroup("AppDirs");
         conf.setValue("path", aux.replace("\\","/"));
         conf.setValue("java", javaPath);
-        conf.setValue("data", "");
         conf.endGroup();
     }else{
         conf.beginGroup("AppDirs");
