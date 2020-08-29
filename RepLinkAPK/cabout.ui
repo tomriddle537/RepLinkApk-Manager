@@ -38,7 +38,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;RepLink APK Manager 1.0.0 &lt;span style=&quot; font-size:7pt;&quot;&gt;Licence: GPL &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:7pt;&quot;&gt;Based on Qt 5.12.2 (MSVC 2010, 32 bit)&lt;/span&gt;&lt;br/&gt;&lt;span style=&quot; font-size:7pt;&quot;&gt;Built on Aug 28 2020 at 19:27:25&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;RepLink APK Manager 1.0.1 &lt;span style=&quot; font-size:7pt;&quot;&gt;Licence: GPL &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:7pt;&quot;&gt;Based on Qt 5.12.2 (MSVC 2010, 32 bit)&lt;/span&gt;&lt;br/&gt;&lt;span style=&quot; font-size:7pt;&quot;&gt;Built on Aug 29 2020 at 16:27:25&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
    <property name="alignment">
     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
