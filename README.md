@@ -17,12 +17,19 @@
 [bin-files]: https://drive.google.com/drive/folders/1x-84SevvpjKgTZZi0EGsgDv93TSEAFTA?usp=sharing
  In case you use the release you only have to install [JDK 1.8.0][jdk-link]...
 
+For Windows, a prebuilt archive with all the dependencies is available:
+
+ - [`RepLinkApk-v1.0.1.zip`][direct-win32]  
+
+[direct-win32]: https://github.com/tomriddle537/RepLinkApk-Manager/releases/download/v1.0.1/RepLinkApk-v1.0.1.zip
+
+
 [jdk-link]: https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html
 
- I'm assuming you use a web server like Apache or Nginx later, to make your repository accessible with the F-Droid [Original App][fdroid-app].
+ I'm assuming you will use a web server like Apache or Nginx later, to make your repository accessible with the F-Droid [Original App][fdroid-app].
  
  
-## Making your own keystores
+### Making your own keystores
  When setting up the repository, one of the first steps should be to generate a signing key for the repository index. This will also create a keystore, which is the file that holds the signing keys. You can use JDKs keytool.exe
 
  keytool -genkey -v -keystore C:/mykeystore.ks -alias repokey \
@@ -32,7 +39,7 @@
 
  The keystore config goes into <kbd>Config</kbd>/<kbd>Options</kbd>, as the ’repokey’ alias, keystorepass and keypass respectively. The path to the keystore file is set in ’keystores’ folder.
  
- ## Basic Usage 
+ # Basic Usage 
  
  1. Install JDK 1.8.0
  1. Config your own keystore or use the one in [`keystores`][keystore] folder. For the provided keystore set Alias to "Manager", keystorepass to "RepLinkApk" and keypass to "Manager". <kbd>Config</kbd>/<kbd>Options</kbd>
@@ -56,7 +63,7 @@
  1. And other minor improvments.
  
  
- ## Finishing
+ # Finishing
 * Developer: [@tomriddle537][developer]
 * Licence: GPLv3
 * Credits to [F-Droid][f-droid] for the repository structure idea and the their [Original App][fdroid-app]
@@ -68,7 +75,7 @@ Share this with you friends and feel free to buy me a cup of coffee. ;)
 
 [developer]: https://github.com/tomriddle537/
 
- ### Note
+ ## Note
 The program is provided AS IS with NO WARRANTY OF ANY KIND.
  
  
