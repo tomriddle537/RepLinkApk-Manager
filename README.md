@@ -35,7 +35,7 @@
  ## Basic Usage 
  
  1. Install JDK 1.8.0
- 1. Config your own keystore or use the one in [`keystores`][keystore] folder.  <kbd>Config</kbd>/<kbd>Options</kbd>
+ 1. Config your own keystore or use the one in [`keystores`][keystore] folder. For the provided keystore set Alias to "Manager", keystorepass to "RepLinkApk" and keypass to "Manager". <kbd>Config</kbd>/<kbd>Options</kbd>
  1. Create a repository in any empty folder and add some categories for your android apps.  <kbd>Repository</kbd>/<kbd>Repositories Manager</kbd>
  1. Add some apps to the `For Process Apps` area. <kbd>Repository</kbd>/<kbd>Add Sended APK files</kbd>
  1. Doble click each one and select a category.
