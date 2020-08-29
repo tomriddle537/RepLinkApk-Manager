@@ -19,7 +19,7 @@
 
 [jdk-link]: https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html
 
- I'm asumming you use a web server like Apache or Nginx later, to make your repository accesibe with the F-Droid [Original App][fdroid-app].
+ I'm assuming you use a web server like Apache or Nginx later, to make your repository accessible with the F-Droid [Original App][fdroid-app].
  
  
 ## Making your own keystores
@@ -38,21 +38,21 @@
  1. Config your own keystore or use the one in [`keystores`][keystore] folder. For the provided keystore set Alias to "Manager", keystorepass to "RepLinkApk" and keypass to "Manager". <kbd>Config</kbd>/<kbd>Options</kbd>
  1. Create a repository in any empty folder and add some categories for your android apps.  <kbd>Repository</kbd>/<kbd>Repositories Manager</kbd>
  1. Add some apps to the `For Process Apps` area. <kbd>Repository</kbd>/<kbd>Add Sended APK files</kbd>
- 1. Doble click each one and select a category.
+ 1. Double click each one and select a category.
  1. Hit the <kbd>Process</kbd> button and wait.
  1. Done
  
  ## Features
  
  1. `Create/Edit/Open/Backup/Close/Delete` repositories and categories <kbd>Repository</kbd>/<kbd>Repositories Manager</kbd>
- 1. `APK files viever` a explorer like tool for browsing folders with apks <kbd>View</kbd>/<kbd>APK files viever</kbd>
+ 1. `APK files viewer` a explorer like tool for browsing folders with apks <kbd>View</kbd>/<kbd>APK files viewer</kbd>
  1. `Apps in repository` a list view for Browse/Edit/Delete apps and packages in an Opened repository. <kbd>View</kbd>/<kbd>Apps in repository</kbd>
  1. `Apps per Category count`. <kbd>View</kbd>/<kbd>Apps per Category count</kbd>
  1. `Apk Info View` a tool that works even outside the app. Make your apks `open with` the RepLinkApk.exe file. <kbd>Tools</kbd>/<kbd>Apk Info View</kbd>
  1. `Apk report` a tool to find Unused, Doble and Missing apks from your repository. <kbd>Tools</kbd>/<kbd>Apk report</kbd>
  1. `Sign Repo` for signing the repo any time you want with your key. <kbd>Tools</kbd>/<kbd>Sign Repo</kbd>
  1. `Generate JSON` for signing the repo any time you want with your key and also generate a required file for the F-Droid [Original App][fdroid-app]. <kbd>Tools</kbd>/<kbd>Generate JSON</kbd>
- 1. `Merge repo/Substract repo/Delete All Packages/Generate Web Link/Set Summary like Category` a set af advanced tools for spesific cases. <kbd>Tools</kbd>/<kbd>Advanced</kbd>/<kbd>Etc...</kbd>
+ 1. `Merge repo/Substract repo/Delete All Packages/Generate Web Link/Set Summary like Category` a set of advanced tools for specific cases. <kbd>Tools</kbd>/<kbd>Advanced</kbd>/<kbd>Etc...</kbd>
  1. And other minor improvments.
  
  
@@ -60,7 +60,7 @@
 * Developer: [@tomriddle537][developer]
 * Licence: GPLv3
 * Credits to [F-Droid][f-droid] for the repository structure idea and the their [Original App][fdroid-app]
-Share this with you friends and feel free to buy me a cup of coffe. ;) 
+Share this with you friends and feel free to buy me a cup of coffee. ;) 
  * Bitcoin:
  bc1qpd4kw5ca8vva62rfldp6vakm84reu9shtgluzw
  * ETH:
