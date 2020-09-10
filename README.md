@@ -65,7 +65,7 @@ For Windows, a prebuilt archive with all the dependencies is available:
  
  # Finishing
 * Developer: [@tomriddle537][developer]
-* Licence: GPLv3
+* License: GPLv3
 * Credits to [F-Droid][f-droid] for the repository structure idea and the their [Original App][fdroid-app].
 Share this with your friends and feel free to buy me a cup of coffee. ;) 
  * Bitcoin:
