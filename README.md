@@ -1,6 +1,8 @@
 # RepLinkApk Manager
  Make your own local or online repositories of Android apps on Windows. Easy [F-Droid][f-droid] like repo structure and using it's [Original App][fdroid-app] as store. Also an easy way to get info from an APK file.
  
+ [![RepLinkApk-Manager-Video](//img.youtube.com/vi/qHImm0yUIHY/0.jpg)](//www.youtube.com/watch?v=qHImm0yUIHY&t=0s "Manager Basic Tutorial")
+ 
  [f-droid]: https://f-droid.org/
  [fdroid-app]: https://f-droid.org/packages/org.fdroid.fdroid/
 
